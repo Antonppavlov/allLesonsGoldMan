@@ -1,9 +1,5 @@
 package ru.javabegin.training.goldman.interfaces.gamemap;
 
-import java.util.ArrayList;
-import java.util.EnumMap;
-import java.util.HashMap;
-import java.util.List;
 import ru.javabegin.training.goldman.abstracts.AbstractGameObject;
 import ru.javabegin.training.goldman.abstracts.AbstractMovingObject;
 import ru.javabegin.training.goldman.enums.ActionResult;
@@ -12,6 +8,11 @@ import ru.javabegin.training.goldman.enums.MovingDirection;
 import ru.javabegin.training.goldman.interfaces.collections.GameCollection;
 import ru.javabegin.training.goldman.objects.Coordinate;
 import ru.javabegin.training.goldman.objects.Nothing;
+
+import java.util.ArrayList;
+import java.util.EnumMap;
+import java.util.HashMap;
+import java.util.List;
 
 public class MapCollection implements GameCollection {// объекты для карты, которые умеют уведомлять всех слушателей о своих ходах
 

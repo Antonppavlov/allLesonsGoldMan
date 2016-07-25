@@ -2,13 +2,7 @@ package ru.javabegin.training.goldman.objects.creators;
 
 import ru.javabegin.training.goldman.abstracts.AbstractGameObject;
 import ru.javabegin.training.goldman.enums.GameObjectType;
-import ru.javabegin.training.goldman.objects.Coordinate;
-import ru.javabegin.training.goldman.objects.Exit;
-import ru.javabegin.training.goldman.objects.GoldMan;
-import ru.javabegin.training.goldman.objects.Monster;
-import ru.javabegin.training.goldman.objects.Nothing;
-import ru.javabegin.training.goldman.objects.Treasure;
-import ru.javabegin.training.goldman.objects.Wall;
+import ru.javabegin.training.goldman.objects.*;
 
 public class GameObjectCreator {
 

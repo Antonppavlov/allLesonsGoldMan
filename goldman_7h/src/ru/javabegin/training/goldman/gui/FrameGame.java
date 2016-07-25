@@ -4,15 +4,15 @@
  */
 package ru.javabegin.training.goldman.gui;
 
-import java.awt.event.ActionListener;
-import java.awt.event.KeyListener;
-import javax.swing.JFrame;
 import ru.javabegin.training.goldman.enums.ActionResult;
 import ru.javabegin.training.goldman.enums.GameObjectType;
 import ru.javabegin.training.goldman.enums.MovingDirection;
 import ru.javabegin.training.goldman.interfaces.gamemap.DrawableMap;
 import ru.javabegin.training.goldman.objects.GoldMan;
 import ru.javabegin.training.goldman.utils.MessageManager;
+
+import java.awt.event.ActionListener;
+import java.awt.event.KeyListener;
 
 /**
  *

@@ -1,13 +1,14 @@
 package ru.javabegin.training.goldman.abstracts;
 
-import java.io.Serializable;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import ru.javabegin.training.goldman.enums.ActionResult;
 import ru.javabegin.training.goldman.enums.GameObjectType;
 import ru.javabegin.training.goldman.enums.MovingDirection;
 import ru.javabegin.training.goldman.interfaces.collections.GameCollection;
 import ru.javabegin.training.goldman.interfaces.gamemap.GameMap;
+
+import java.io.Serializable;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * базовая карта без конкретного отображения

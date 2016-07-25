@@ -4,9 +4,10 @@
  */
 package ru.javabegin.training.goldman.interfaces.gameobjects;
 
-import ru.javabegin.training.goldman.objects.Coordinate;
-import javax.swing.ImageIcon;
 import ru.javabegin.training.goldman.enums.GameObjectType;
+import ru.javabegin.training.goldman.objects.Coordinate;
+
+import javax.swing.*;
 
 /**
  *

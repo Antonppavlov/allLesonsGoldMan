@@ -1,17 +1,18 @@
 package ru.javabegin.training.goldman.objects.maps;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import ru.javabegin.training.goldman.abstracts.AbstractGameMap;
 import ru.javabegin.training.goldman.abstracts.AbstractGameObject;
 import ru.javabegin.training.goldman.enums.GameObjectType;
 import ru.javabegin.training.goldman.interfaces.collections.GameCollection;
 import ru.javabegin.training.goldman.objects.Coordinate;
 import ru.javabegin.training.goldman.objects.creators.GameObjectCreator;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class FSGameMap extends AbstractGameMap {
     

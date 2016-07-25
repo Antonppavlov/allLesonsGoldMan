@@ -1,11 +1,12 @@
 package ru.javabegin.training.goldman.abstracts;
 
 
-import java.util.Objects;
-import ru.javabegin.training.goldman.objects.Coordinate;
 import ru.javabegin.training.goldman.enums.GameObjectType;
-import javax.swing.ImageIcon;
 import ru.javabegin.training.goldman.interfaces.gameobjects.StaticObject;
+import ru.javabegin.training.goldman.objects.Coordinate;
+
+import javax.swing.*;
+import java.util.Objects;
 
 /**
  * класс, который отвечает за любой объект, созданный в игре. задает все общие

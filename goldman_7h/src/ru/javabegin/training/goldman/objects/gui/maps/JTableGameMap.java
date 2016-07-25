@@ -1,9 +1,5 @@
 package ru.javabegin.training.goldman.objects.gui.maps;
 
-import java.awt.Component;
-import javax.swing.JTable;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableColumn;
 import ru.javabegin.training.goldman.abstracts.AbstractGameMap;
 import ru.javabegin.training.goldman.abstracts.AbstractGameObject;
 import ru.javabegin.training.goldman.enums.GameObjectType;
@@ -14,6 +10,11 @@ import ru.javabegin.training.goldman.objects.Coordinate;
 import ru.javabegin.training.goldman.objects.Nothing;
 import ru.javabegin.training.goldman.objects.Wall;
 import ru.javabegin.training.goldman.objects.creators.MapCreator;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumn;
+import java.awt.*;
 
 public class JTableGameMap implements DrawableMap {
 

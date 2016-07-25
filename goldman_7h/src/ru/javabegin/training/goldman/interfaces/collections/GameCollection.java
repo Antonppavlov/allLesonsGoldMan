@@ -1,11 +1,12 @@
 package ru.javabegin.training.goldman.interfaces.collections;
 
-import java.util.List;
 import ru.javabegin.training.goldman.abstracts.AbstractGameObject;
 import ru.javabegin.training.goldman.enums.ActionResult;
 import ru.javabegin.training.goldman.enums.GameObjectType;
 import ru.javabegin.training.goldman.enums.MovingDirection;
 import ru.javabegin.training.goldman.objects.Coordinate;
+
+import java.util.List;
 
 public interface GameCollection{
     

@@ -1,10 +1,10 @@
 package ru.javabegin.training.goldman.objects.gui.maps;
 
-import java.awt.Component;
-import javax.swing.JLabel;
-import javax.swing.JTable;
-import javax.swing.table.DefaultTableCellRenderer;
 import ru.javabegin.training.goldman.abstracts.AbstractGameObject;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableCellRenderer;
+import java.awt.*;
 
 
 public class ImageRenderer extends DefaultTableCellRenderer {
